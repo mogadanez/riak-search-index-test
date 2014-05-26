@@ -1,0 +1,10 @@
+{
+  "name": "test",
+  "description": "tes app",
+  "version": "0.0.1",
+  "dependencies": {
+    "bluebird": "^1.2.4",
+    "riak-js": "^0.10.2",
+    "node-uuid": "^1.4.1"
+  }
+}
