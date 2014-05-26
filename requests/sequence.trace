@@ -1,0 +1,215 @@
+HTTP-Trace-Version: 1.0
+Generator: Charles/3.9.2b1
+
+Method: PUT
+Protocol-Version: HTTP/1.1
+Protocol: http
+Host: localhost
+Port: 8098
+File: /riak/test-index-consistency/8598900546019-2475ab1d-bf25-4695-b6a4-ff4c871217ef
+Remote-Address: 54.84.240.174
+Client-Address: 127.0.0.1
+Start-Time: 2014-05-26T17:33:04.370+04:00
+DNS-Duration: 0
+Connect-Duration: 128
+Request-Begin-Time: 2014-05-26T17:33:04.498+04:00
+Request-Time: 2014-05-26T17:33:04.498+04:00
+Response-Time: 2014-05-26T17:33:04.635+04:00
+End-Time: 2014-05-26T17:33:04.642+04:00
+Request-Header-Size: 286
+Response-Header-Size: 205
+Request-Body-Size: 128
+Response-Body-Size: 0
+Request-Body-Decoded: false
+Response-Body-Decoded: false
+Request-Header:<<--EOF-1401112172669-
+PUT /riak/test-index-consistency/8598900546019-2475ab1d-bf25-4695-b6a4-ff4c871217ef HTTP/1.1
+content-type: application/json
+accept: multipart/mixed,application/json;q=0.7, */*;q=0.5
+content-length: 128
+Connection: keep-alive
+Host: localhost:8098
+
+
+--EOF-1401112172669-
+Response-Header:<<--EOF-1401112172669-
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.0 (never breaks eye contact)
+Date: Mon, 26 May 2014 13:33:08 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+--EOF-1401112172669-
+Request-Body:<<--EOF-1401112172669-
+{"name":"Unnamed","originalID":"2475ab1d-bf25-4695-b6a4-ff4c871217ef","id":"8598900546019-2475ab1d-bf25-4695-b6a4-ff4c871217ef"}
+--EOF-1401112172669-
+
+Method: GET
+Protocol-Version: HTTP/1.1
+Protocol: http
+Host: localhost
+Port: 8098
+File: /solr/test-index-consistency/select?q=originalID%3A2475ab1d-bf25-4695-b6a4-ff4c871217ef&wt=json
+Remote-Address: 54.84.240.174
+Client-Address: 127.0.0.1
+Start-Time: 2014-05-26T17:33:04.643+04:00
+DNS-Duration: 0
+Connect-Duration: 124
+Request-Begin-Time: 2014-05-26T17:33:04.768+04:00
+Request-Time: 2014-05-26T17:33:04.769+04:00
+Response-Time: 2014-05-26T17:33:04.900+04:00
+End-Time: 2014-05-26T17:33:04.902+04:00
+Request-Header-Size: 249
+Response-Header-Size: 176
+Request-Body-Size: 0
+Response-Body-Size: 451
+Request-Body-Decoded: false
+Response-Body-Decoded: false
+Request-Header:<<--EOF-1401112172670-
+GET /solr/test-index-consistency/select?q=originalID%3A2475ab1d-bf25-4695-b6a4-ff4c871217ef&wt=json HTTP/1.1
+Accept: multipart/mixed,application/json;q=0.7, */*;q=0.5
+Connection: keep-alive
+Host: localhost:8098
+
+
+--EOF-1401112172670-
+Response-Header:<<--EOF-1401112172670-
+HTTP/1.1 200 OK
+Server: MochiWeb/1.1 WebMachine/1.10.0 (never breaks eye contact)
+Date: Mon, 26 May 2014 13:32:59 GMT
+Content-Type: application/json
+Content-Length: 451
+
+
+--EOF-1401112172670-
+Response-Body:<<--EOF-1401112172670-
+{"responseHeader":{"status":0,"QTime":5,"params":{"q":"originalID:2475ab1d-bf25-4695-b6a4-ff4c871217ef","q.op":"or","filter":"","wt":"json"}},"response":{"numFound":1,"start":0,"maxScore":"0.353553","docs":[{"id":"8598900546019-2475ab1d-bf25-4695-b6a4-ff4c871217ef","index":"test-index-consistency","fields":{"id":"8598900546019-2475ab1d-bf25-4695-b6a4-ff4c871217ef","name":"Unnamed","originalID":"2475ab1d-bf25-4695-b6a4-ff4c871217ef"},"props":{}}]}}
+--EOF-1401112172670-
+
+Method: GET
+Protocol-Version: HTTP/1.1
+Protocol: http
+Host: localhost
+Port: 8098
+File: /solr/test-index-consistency/select?q=originalID%3A2475ab1d-bf25-4695-b6a4-ff4c871217ef&wt=json
+Remote-Address: 54.84.240.174
+Client-Address: 127.0.0.1
+Start-Time: 2014-05-26T17:33:04.908+04:00
+DNS-Duration: 1
+Connect-Duration: 120
+Request-Begin-Time: 2014-05-26T17:33:05.029+04:00
+Request-Time: 2014-05-26T17:33:05.029+04:00
+Response-Time: 2014-05-26T17:33:05.152+04:00
+End-Time: 2014-05-26T17:33:05.154+04:00
+Request-Header-Size: 249
+Response-Header-Size: 176
+Request-Body-Size: 0
+Response-Body-Size: 451
+Request-Body-Decoded: false
+Response-Body-Decoded: false
+Request-Header:<<--EOF-1401112172672-
+GET /solr/test-index-consistency/select?q=originalID%3A2475ab1d-bf25-4695-b6a4-ff4c871217ef&wt=json HTTP/1.1
+Accept: multipart/mixed,application/json;q=0.7, */*;q=0.5
+Connection: keep-alive
+Host: localhost:8098
+
+
+--EOF-1401112172672-
+Response-Header:<<--EOF-1401112172672-
+HTTP/1.1 200 OK
+Server: MochiWeb/1.1 WebMachine/1.10.0 (never breaks eye contact)
+Date: Mon, 26 May 2014 13:33:37 GMT
+Content-Type: application/json
+Content-Length: 451
+
+
+--EOF-1401112172672-
+Response-Body:<<--EOF-1401112172672-
+{"responseHeader":{"status":0,"QTime":1,"params":{"q":"originalID:2475ab1d-bf25-4695-b6a4-ff4c871217ef","q.op":"or","filter":"","wt":"json"}},"response":{"numFound":1,"start":0,"maxScore":"0.353553","docs":[{"id":"8598900546019-2475ab1d-bf25-4695-b6a4-ff4c871217ef","index":"test-index-consistency","fields":{"id":"8598900546019-2475ab1d-bf25-4695-b6a4-ff4c871217ef","name":"Unnamed","originalID":"2475ab1d-bf25-4695-b6a4-ff4c871217ef"},"props":{}}]}}
+--EOF-1401112172672-
+
+Method: DELETE
+Protocol-Version: HTTP/1.1
+Protocol: http
+Host: localhost
+Port: 8098
+File: /riak/test-index-consistency/8598900546019-2475ab1d-bf25-4695-b6a4-ff4c871217ef
+Remote-Address: 54.84.240.174
+Client-Address: 127.0.0.1
+Start-Time: 2014-05-26T17:33:05.162+04:00
+DNS-Duration: 0
+Connect-Duration: 124
+Request-Begin-Time: 2014-05-26T17:33:05.307+04:00
+Request-Time: 2014-05-26T17:33:05.307+04:00
+Response-Time: 2014-05-26T17:33:05.443+04:00
+End-Time: 2014-05-26T17:33:05.445+04:00
+Request-Header-Size: 255
+Response-Header-Size: 205
+Request-Body-Size: 0
+Response-Body-Size: 0
+Request-Body-Decoded: false
+Response-Body-Decoded: false
+Request-Header:<<--EOF-1401112172673-
+DELETE /riak/test-index-consistency/8598900546019-2475ab1d-bf25-4695-b6a4-ff4c871217ef HTTP/1.1
+accept: multipart/mixed,application/json;q=0.7, */*;q=0.5
+content-length: 0
+Connection: keep-alive
+Host: localhost:8098
+
+
+--EOF-1401112172673-
+Response-Header:<<--EOF-1401112172673-
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.0 (never breaks eye contact)
+Date: Mon, 26 May 2014 13:33:09 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+--EOF-1401112172673-
+
+Method: GET
+Protocol-Version: HTTP/1.1
+Protocol: http
+Host: localhost
+Port: 8098
+File: /solr/test-index-consistency/select?q=originalID%3A2475ab1d-bf25-4695-b6a4-ff4c871217ef&wt=json
+Remote-Address: 54.84.240.174
+Client-Address: 127.0.0.1
+Start-Time: 2014-05-26T17:33:05.449+04:00
+DNS-Duration: 0
+Connect-Duration: 132
+Request-Begin-Time: 2014-05-26T17:33:05.584+04:00
+Request-Time: 2014-05-26T17:33:05.584+04:00
+Response-Time: 2014-05-26T17:33:05.711+04:00
+End-Time: 2014-05-26T17:33:05.714+04:00
+Request-Header-Size: 249
+Response-Header-Size: 176
+Request-Body-Size: 0
+Response-Body-Size: 210
+Request-Body-Decoded: false
+Response-Body-Decoded: false
+Request-Header:<<--EOF-1401112172675-
+GET /solr/test-index-consistency/select?q=originalID%3A2475ab1d-bf25-4695-b6a4-ff4c871217ef&wt=json HTTP/1.1
+Accept: multipart/mixed,application/json;q=0.7, */*;q=0.5
+Connection: keep-alive
+Host: localhost:8098
+
+
+--EOF-1401112172675-
+Response-Header:<<--EOF-1401112172675-
+HTTP/1.1 200 OK
+Server: MochiWeb/1.1 WebMachine/1.10.0 (never breaks eye contact)
+Date: Mon, 26 May 2014 13:33:00 GMT
+Content-Type: application/json
+Content-Length: 210
+
+
+--EOF-1401112172675-
+Response-Body:<<--EOF-1401112172675-
+{"responseHeader":{"status":0,"QTime":1,"params":{"q":"originalID:2475ab1d-bf25-4695-b6a4-ff4c871217ef","q.op":"or","filter":"","wt":"json"}},"response":{"numFound":1,"start":0,"maxScore":"0.353553","docs":[]}}
+--EOF-1401112172675-
+

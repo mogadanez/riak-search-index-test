@@ -1,0 +1,304 @@
+HTTP-Trace-Version: 1.0
+Generator: Charles/3.9.2b1
+
+Method: PUT
+Protocol-Version: HTTP/1.1
+Protocol: http
+Host: ec2-54-84-240-174.compute-1.amazonaws.com
+Port: 8098
+File: /riak/test-index-consistency
+Remote-Address: 54.84.240.174
+Client-Address: 127.0.0.1
+Start-Time: 2014-05-26T17:58:11.317+04:00
+DNS-Duration: 50
+Connect-Duration: 123
+Request-Begin-Time: 2014-05-26T17:58:11.493+04:00
+Request-Time: 2014-05-26T17:58:11.494+04:00
+Response-Time: 2014-05-26T17:58:11.629+04:00
+End-Time: 2014-05-26T17:58:11.631+04:00
+Request-Header-Size: 234
+Response-Header-Size: 205
+Request-Body-Size: 67
+Response-Body-Size: 0
+Request-Body-Decoded: false
+Response-Body-Decoded: false
+Request-Header:<<--EOF-1401112724950-
+PUT /riak/test-index-consistency HTTP/1.1
+content-type: application/json
+accept: multipart/mixed,application/json;q=0.7, */*;q=0.5
+content-length: 67
+Connection: keep-alive
+Host: ec2-54-84-240-174.compute-1.amazonaws.com:8098
+
+
+--EOF-1401112724950-
+Response-Header:<<--EOF-1401112724950-
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.0 (never breaks eye contact)
+Date: Mon, 26 May 2014 13:58:06 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+--EOF-1401112724950-
+Request-Body:<<--EOF-1401112724950-
+{"props":{"search":true,"last_write_wins":false,"allow_mult":true}}
+--EOF-1401112724950-
+
+Method: PUT
+Protocol-Version: HTTP/1.1
+Protocol: http
+Host: ec2-54-84-240-174.compute-1.amazonaws.com
+Port: 8098
+File: /riak/test-index-consistency/8598900546019-81478304-ff35-4117-971c-7817176088f4
+Remote-Address: 54.84.240.174
+Client-Address: 127.0.0.1
+Start-Time: 2014-05-26T17:58:11.646+04:00
+DNS-Duration: 0
+Connect-Duration: 123
+Request-Begin-Time: 2014-05-26T17:58:11.771+04:00
+Request-Time: 2014-05-26T17:58:11.771+04:00
+Response-Time: 2014-05-26T17:58:11.901+04:00
+End-Time: 2014-05-26T17:58:11.902+04:00
+Request-Header-Size: 286
+Response-Header-Size: 205
+Request-Body-Size: 128
+Response-Body-Size: 0
+Request-Body-Decoded: false
+Response-Body-Decoded: false
+Request-Header:<<--EOF-1401112724951-
+PUT /riak/test-index-consistency/8598900546019-81478304-ff35-4117-971c-7817176088f4 HTTP/1.1
+content-type: application/json
+accept: multipart/mixed,application/json;q=0.7, */*;q=0.5
+content-length: 128
+Connection: keep-alive
+Host: ec2-54-84-240-174.compute-1.amazonaws.com:8098
+
+
+--EOF-1401112724951-
+Response-Header:<<--EOF-1401112724951-
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.0 (never breaks eye contact)
+Date: Mon, 26 May 2014 13:58:43 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+--EOF-1401112724951-
+Request-Body:<<--EOF-1401112724951-
+{"name":"Unnamed","originalID":"81478304-ff35-4117-971c-7817176088f4","id":"8598900546019-81478304-ff35-4117-971c-7817176088f4"}
+--EOF-1401112724951-
+
+Method: DELETE
+Protocol-Version: HTTP/1.1
+Protocol: http
+Host: ec2-54-84-240-174.compute-1.amazonaws.com
+Port: 8098
+File: /riak/test-index-consistency/8598900546019-81478304-ff35-4117-971c-7817176088f4
+Remote-Address: 54.84.240.174
+Client-Address: 127.0.0.1
+Start-Time: 2014-05-26T17:58:11.905+04:00
+DNS-Duration: 0
+Connect-Duration: 120
+Request-Begin-Time: 2014-05-26T17:58:12.025+04:00
+Request-Time: 2014-05-26T17:58:12.025+04:00
+Response-Time: 2014-05-26T17:58:12.155+04:00
+End-Time: 2014-05-26T17:58:12.163+04:00
+Request-Header-Size: 255
+Response-Header-Size: 205
+Request-Body-Size: 0
+Response-Body-Size: 0
+Request-Body-Decoded: false
+Response-Body-Decoded: false
+Request-Header:<<--EOF-1401112724952-
+DELETE /riak/test-index-consistency/8598900546019-81478304-ff35-4117-971c-7817176088f4 HTTP/1.1
+accept: multipart/mixed,application/json;q=0.7, */*;q=0.5
+content-length: 0
+Connection: keep-alive
+Host: ec2-54-84-240-174.compute-1.amazonaws.com:8098
+
+
+--EOF-1401112724952-
+Response-Header:<<--EOF-1401112724952-
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.0 (never breaks eye contact)
+Date: Mon, 26 May 2014 13:58:16 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+--EOF-1401112724952-
+
+Method: GET
+Protocol-Version: HTTP/1.1
+Protocol: http
+Host: ec2-54-84-240-174.compute-1.amazonaws.com
+Port: 8098
+File: /solr/test-index-consistency/select?q=originalID%3A81478304-ff35-4117-971c-7817176088f4&wt=json
+Remote-Address: 54.84.240.174
+Client-Address: 127.0.0.1
+Start-Time: 2014-05-26T17:58:12.165+04:00
+DNS-Duration: 0
+Connect-Duration: 120
+Request-Begin-Time: 2014-05-26T17:58:12.287+04:00
+Request-Time: 2014-05-26T17:58:12.287+04:00
+Response-Time: 2014-05-26T17:58:12.409+04:00
+End-Time: 2014-05-26T17:58:12.422+04:00
+Request-Header-Size: 249
+Response-Header-Size: 176
+Request-Body-Size: 0
+Response-Body-Size: 205
+Request-Body-Decoded: false
+Response-Body-Decoded: false
+Request-Header:<<--EOF-1401112724953-
+GET /solr/test-index-consistency/select?q=originalID%3A81478304-ff35-4117-971c-7817176088f4&wt=json HTTP/1.1
+Accept: multipart/mixed,application/json;q=0.7, */*;q=0.5
+Connection: keep-alive
+Host: ec2-54-84-240-174.compute-1.amazonaws.com:8098
+
+
+--EOF-1401112724953-
+Response-Header:<<--EOF-1401112724953-
+HTTP/1.1 200 OK
+Server: MochiWeb/1.1 WebMachine/1.10.0 (never breaks eye contact)
+Date: Mon, 26 May 2014 13:58:07 GMT
+Content-Type: application/json
+Content-Length: 205
+
+
+--EOF-1401112724953-
+Response-Body:<<--EOF-1401112724953-
+{"responseHeader":{"status":0,"QTime":1,"params":{"q":"originalID:81478304-ff35-4117-971c-7817176088f4","q.op":"or","filter":"","wt":"json"}},"response":{"numFound":0,"start":0,"maxScore":"0.0","docs":[]}}
+--EOF-1401112724953-
+
+Method: PUT
+Protocol-Version: HTTP/1.1
+Protocol: http
+Host: ec2-54-84-240-174.compute-1.amazonaws.com
+Port: 8098
+File: /riak/test-index-consistency/8598900546019-575ed7ea-226d-4bd4-96e0-ecdba14bec5a
+Remote-Address: 54.84.240.174
+Client-Address: 127.0.0.1
+Start-Time: 2014-05-26T17:58:12.424+04:00
+DNS-Duration: 0
+Connect-Duration: 126
+Request-Begin-Time: 2014-05-26T17:58:12.551+04:00
+Request-Time: 2014-05-26T17:58:12.551+04:00
+Response-Time: 2014-05-26T17:58:12.686+04:00
+End-Time: 2014-05-26T17:58:12.687+04:00
+Request-Header-Size: 286
+Response-Header-Size: 205
+Request-Body-Size: 128
+Response-Body-Size: 0
+Request-Body-Decoded: false
+Response-Body-Decoded: false
+Request-Header:<<--EOF-1401112724954-
+PUT /riak/test-index-consistency/8598900546019-575ed7ea-226d-4bd4-96e0-ecdba14bec5a HTTP/1.1
+content-type: application/json
+accept: multipart/mixed,application/json;q=0.7, */*;q=0.5
+content-length: 128
+Connection: keep-alive
+Host: ec2-54-84-240-174.compute-1.amazonaws.com:8098
+
+
+--EOF-1401112724954-
+Response-Header:<<--EOF-1401112724954-
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.0 (never breaks eye contact)
+Date: Mon, 26 May 2014 13:58:44 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+--EOF-1401112724954-
+Request-Body:<<--EOF-1401112724954-
+{"name":"Unnamed","originalID":"575ed7ea-226d-4bd4-96e0-ecdba14bec5a","id":"8598900546019-575ed7ea-226d-4bd4-96e0-ecdba14bec5a"}
+--EOF-1401112724954-
+
+Method: DELETE
+Protocol-Version: HTTP/1.1
+Protocol: http
+Host: ec2-54-84-240-174.compute-1.amazonaws.com
+Port: 8098
+File: /riak/test-index-consistency/8598900546019-575ed7ea-226d-4bd4-96e0-ecdba14bec5a
+Remote-Address: 54.84.240.174
+Client-Address: 127.0.0.1
+Start-Time: 2014-05-26T17:58:12.698+04:00
+DNS-Duration: 0
+Connect-Duration: 121
+Request-Begin-Time: 2014-05-26T17:58:12.819+04:00
+Request-Time: 2014-05-26T17:58:12.819+04:00
+Response-Time: 2014-05-26T17:58:12.955+04:00
+End-Time: 2014-05-26T17:58:12.956+04:00
+Request-Header-Size: 255
+Response-Header-Size: 205
+Request-Body-Size: 0
+Response-Body-Size: 0
+Request-Body-Decoded: false
+Response-Body-Decoded: false
+Request-Header:<<--EOF-1401112724955-
+DELETE /riak/test-index-consistency/8598900546019-575ed7ea-226d-4bd4-96e0-ecdba14bec5a HTTP/1.1
+accept: multipart/mixed,application/json;q=0.7, */*;q=0.5
+content-length: 0
+Connection: keep-alive
+Host: ec2-54-84-240-174.compute-1.amazonaws.com:8098
+
+
+--EOF-1401112724955-
+Response-Header:<<--EOF-1401112724955-
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.0 (never breaks eye contact)
+Date: Mon, 26 May 2014 13:58:16 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+--EOF-1401112724955-
+
+Method: GET
+Protocol-Version: HTTP/1.1
+Protocol: http
+Host: ec2-54-84-240-174.compute-1.amazonaws.com
+Port: 8098
+File: /solr/test-index-consistency/select?q=originalID%3A575ed7ea-226d-4bd4-96e0-ecdba14bec5a&wt=json
+Remote-Address: 54.84.240.174
+Client-Address: 127.0.0.1
+Start-Time: 2014-05-26T17:58:12.959+04:00
+DNS-Duration: 0
+Connect-Duration: 123
+Request-Begin-Time: 2014-05-26T17:58:13.083+04:00
+Request-Time: 2014-05-26T17:58:13.083+04:00
+Response-Time: 2014-05-26T17:58:13.208+04:00
+End-Time: 2014-05-26T17:58:13.210+04:00
+Request-Header-Size: 249
+Response-Header-Size: 176
+Request-Body-Size: 0
+Response-Body-Size: 210
+Request-Body-Decoded: false
+Response-Body-Decoded: false
+Request-Header:<<--EOF-1401112724956-
+GET /solr/test-index-consistency/select?q=originalID%3A575ed7ea-226d-4bd4-96e0-ecdba14bec5a&wt=json HTTP/1.1
+Accept: multipart/mixed,application/json;q=0.7, */*;q=0.5
+Connection: keep-alive
+Host: ec2-54-84-240-174.compute-1.amazonaws.com:8098
+
+
+--EOF-1401112724956-
+Response-Header:<<--EOF-1401112724956-
+HTTP/1.1 200 OK
+Server: MochiWeb/1.1 WebMachine/1.10.0 (never breaks eye contact)
+Date: Mon, 26 May 2014 13:58:08 GMT
+Content-Type: application/json
+Content-Length: 210
+
+
+--EOF-1401112724956-
+Response-Body:<<--EOF-1401112724956-
+{"responseHeader":{"status":0,"QTime":1,"params":{"q":"originalID:575ed7ea-226d-4bd4-96e0-ecdba14bec5a","q.op":"or","filter":"","wt":"json"}},"response":{"numFound":1,"start":0,"maxScore":"0.353553","docs":[]}}
+--EOF-1401112724956-
+
