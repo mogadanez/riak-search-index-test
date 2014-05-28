@@ -4,7 +4,7 @@ Generator: Charles/3.9.2b1
 Method: PUT
 Protocol-Version: HTTP/1.1
 Protocol: http
-Host: ec2-54-84-240-174.compute-1.amazonaws.com
+Host: localhost
 Port: 8098
 File: /riak/test-index-consistency
 Remote-Address: 54.84.240.174
@@ -28,7 +28,7 @@ content-type: application/json
 accept: multipart/mixed,application/json;q=0.7, */*;q=0.5
 content-length: 67
 Connection: keep-alive
-Host: ec2-54-84-240-174.compute-1.amazonaws.com:8098
+Host: localhost:8098
 
 
 --EOF-1401112724950-
@@ -49,7 +49,7 @@ Request-Body:<<--EOF-1401112724950-
 Method: PUT
 Protocol-Version: HTTP/1.1
 Protocol: http
-Host: ec2-54-84-240-174.compute-1.amazonaws.com
+Host: localhost
 Port: 8098
 File: /riak/test-index-consistency/8598900546019-81478304-ff35-4117-971c-7817176088f4
 Remote-Address: 54.84.240.174
@@ -73,7 +73,7 @@ content-type: application/json
 accept: multipart/mixed,application/json;q=0.7, */*;q=0.5
 content-length: 128
 Connection: keep-alive
-Host: ec2-54-84-240-174.compute-1.amazonaws.com:8098
+Host: localhost:8098
 
 
 --EOF-1401112724951-
@@ -94,7 +94,7 @@ Request-Body:<<--EOF-1401112724951-
 Method: DELETE
 Protocol-Version: HTTP/1.1
 Protocol: http
-Host: ec2-54-84-240-174.compute-1.amazonaws.com
+Host: localhost
 Port: 8098
 File: /riak/test-index-consistency/8598900546019-81478304-ff35-4117-971c-7817176088f4
 Remote-Address: 54.84.240.174
@@ -117,7 +117,7 @@ DELETE /riak/test-index-consistency/8598900546019-81478304-ff35-4117-971c-781717
 accept: multipart/mixed,application/json;q=0.7, */*;q=0.5
 content-length: 0
 Connection: keep-alive
-Host: ec2-54-84-240-174.compute-1.amazonaws.com:8098
+Host: localhost:8098
 
 
 --EOF-1401112724952-
@@ -135,7 +135,7 @@ Content-Length: 0
 Method: GET
 Protocol-Version: HTTP/1.1
 Protocol: http
-Host: ec2-54-84-240-174.compute-1.amazonaws.com
+Host: localhost
 Port: 8098
 File: /solr/test-index-consistency/select?q=originalID%3A81478304-ff35-4117-971c-7817176088f4&wt=json
 Remote-Address: 54.84.240.174
@@ -157,7 +157,7 @@ Request-Header:<<--EOF-1401112724953-
 GET /solr/test-index-consistency/select?q=originalID%3A81478304-ff35-4117-971c-7817176088f4&wt=json HTTP/1.1
 Accept: multipart/mixed,application/json;q=0.7, */*;q=0.5
 Connection: keep-alive
-Host: ec2-54-84-240-174.compute-1.amazonaws.com:8098
+Host: localhost:8098
 
 
 --EOF-1401112724953-
@@ -177,7 +177,7 @@ Response-Body:<<--EOF-1401112724953-
 Method: PUT
 Protocol-Version: HTTP/1.1
 Protocol: http
-Host: ec2-54-84-240-174.compute-1.amazonaws.com
+Host: localhost
 Port: 8098
 File: /riak/test-index-consistency/8598900546019-575ed7ea-226d-4bd4-96e0-ecdba14bec5a
 Remote-Address: 54.84.240.174
@@ -201,7 +201,7 @@ content-type: application/json
 accept: multipart/mixed,application/json;q=0.7, */*;q=0.5
 content-length: 128
 Connection: keep-alive
-Host: ec2-54-84-240-174.compute-1.amazonaws.com:8098
+Host: localhost:8098
 
 
 --EOF-1401112724954-
@@ -222,7 +222,7 @@ Request-Body:<<--EOF-1401112724954-
 Method: DELETE
 Protocol-Version: HTTP/1.1
 Protocol: http
-Host: ec2-54-84-240-174.compute-1.amazonaws.com
+Host: localhost
 Port: 8098
 File: /riak/test-index-consistency/8598900546019-575ed7ea-226d-4bd4-96e0-ecdba14bec5a
 Remote-Address: 54.84.240.174
@@ -245,7 +245,7 @@ DELETE /riak/test-index-consistency/8598900546019-575ed7ea-226d-4bd4-96e0-ecdba1
 accept: multipart/mixed,application/json;q=0.7, */*;q=0.5
 content-length: 0
 Connection: keep-alive
-Host: ec2-54-84-240-174.compute-1.amazonaws.com:8098
+Host: localhost:8098
 
 
 --EOF-1401112724955-
@@ -263,7 +263,7 @@ Content-Length: 0
 Method: GET
 Protocol-Version: HTTP/1.1
 Protocol: http
-Host: ec2-54-84-240-174.compute-1.amazonaws.com
+Host: localhost
 Port: 8098
 File: /solr/test-index-consistency/select?q=originalID%3A575ed7ea-226d-4bd4-96e0-ecdba14bec5a&wt=json
 Remote-Address: 54.84.240.174
@@ -285,7 +285,7 @@ Request-Header:<<--EOF-1401112724956-
 GET /solr/test-index-consistency/select?q=originalID%3A575ed7ea-226d-4bd4-96e0-ecdba14bec5a&wt=json HTTP/1.1
 Accept: multipart/mixed,application/json;q=0.7, */*;q=0.5
 Connection: keep-alive
-Host: ec2-54-84-240-174.compute-1.amazonaws.com:8098
+Host: localhost:8098
 
 
 --EOF-1401112724956-
